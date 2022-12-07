@@ -1,6 +1,9 @@
-/*Aquí va el CSS del fichero 2_tabla.html*/
 
-
+*{
+    text-align : center;
+    box-sizing : border-box;
+}
 table, td{
-    border: 2px solid
+    border: 2px solid;
+    color:black
 }
