@@ -6,12 +6,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 3 - Contacto</title>
-    <!-- CSS: vincular el archivo 3_style.css -->
+    <link rel="stylesheet" href="3_style.css">
 
 </head>
 
 <body>
-
+    <form action="">
+        <label for="name">nombre:</label><br>
+        <input type="text" name="name" id="name"><br>
+        <label for="email">email:</label><br>
+        <input type="text" name="email" id="email"><br>
+        <label for="email">telefono:</label><br>
+        <input type="text" name="telefono" id="telefono"><br>
+        <label for="f_nacimiento">Fecha de nacimiento</label><br>
+        <input type="date" id="f_nacimiento" name="f_nacimiento"><br>
+        <br>
+        <h4>Genero</h4>
+        <br>
+        <input type="Genero" id="Genero-masculino" name="genero">
+        <label for="Genero-masculino">Masculino</label>
+        <br>
+        <input type="Genero" id="Genero-femenino" name="genero">
+        <label for="Genero-femenino">femenino</label>
+        <br>
+        <input type="Genero" id="Genero-otros" name="genero">
+        <label for="Genero-otros">Otros</label>
+        <br>
+        <br>
+        <input type="checkbox" name="conciciones" id="condiciones" required>
+        <label for="condiciones">Renuncio a mis derechos como ser humano</label><br>
+        <input type="submit">
+    </form>
 </body>
 
 </html>
