@@ -1,3 +1,6 @@
 /*Aquí va el CSS del fichero 2_tabla.html*/
 
 
+table, td{
+    border: 2px solid
+}

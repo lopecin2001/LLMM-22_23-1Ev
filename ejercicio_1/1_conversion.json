@@ -1,1 +1,44 @@
-// Aquí el contenido en json (Borrar esta línea)
+{
+    "nombre":"Fulanito",
+    "apellidos":{
+        "apellido1":"Fernandez",
+        "apellido2":"Fernandez"
+    },
+    "hobbies":[
+        {
+            "hobbie":"correr"
+        },
+        {
+            "hobbie":"espeleología"
+        }
+        ],
+        "mascota":{
+            "nombre":"Bigotes",
+            "tipo":"gato"
+        },
+        "direcciones":[
+           {
+               "tipo_via":"calle",
+               "nombre":"Uría",
+               "numero":"4",
+               "poblacion":"Oviedo",
+               "codigo_postal":"33011"
+           },
+           {
+               "tipo_via":"avenida",
+               "nombre":"Constitución",
+               "numero":"32",
+               "poblacion":"Madrid",
+               "codigo_postal":"25001"           
+           },
+           {
+               "tipo_via":"calle",
+               "nombre":"Juan Escalante de Mendoza",
+               "numero":"9",
+               "poblacion":"Oviedo",
+               "codigo_postal":"33009"           
+           }
+        ]  
+    }
+    
+}
