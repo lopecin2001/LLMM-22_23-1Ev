@@ -6,29 +6,24 @@
         "ciclo":"Educacion infantil"
     },
     "hobbies":[
-        {
-            "hobbie":"ser un meme"
-        },
-        {
-            "hobbie":"futbol"
-        },
-        {
-            "hobbie":"cosas de rusos"
-        }
+       "ser un meme",
+       "futbol",
+       "cosas de rusos"
         ],
-    "Asignatura":{
-        "titulo":"Lenguaje de marcas",
-        "Profesor":"Rodri"  
-    },
-    "Asignatura2": {
-        "titulo":"Ingles",
-        "Profesor":"Olaya A.K.A" 
-    },
-    "Asignatura3":{
-        "titulo":"Ingles",
-        "Profesor":"Olaya A.K.A" 
-        }
-        
+    "Asignaturas":[
+        {
+            "titulo":"Lenguaje de marcas",
+            "Profesor":"Rodri"  
+        },
+        {
+            "titulo":"Ingles",
+            "Profesor":"Olaya A.K.A" 
+        },
+        {
+            "titulo":"Ingles",
+            "Profesor":"Olaya A.K.A" 
+        }   
+    ]       
 }
             
         
